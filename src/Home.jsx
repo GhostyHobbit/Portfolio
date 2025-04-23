@@ -19,7 +19,7 @@ function Home() {
         <>
             <div className={darkMode ? "bg-greenDark" : "bg-greenLight"}>
                 {/* Header */}
-                <div className={`bg-[url('background.png')] bg-cover bg-center min-h-dvh border-b-solid border-b-4 ${darkMode ? 'border-b-accentGreen' : 'border-b-greenDark'}`}>
+                <div className={`bg-[url('/Portfolio/background.png')] bg-cover bg-center min-h-dvh border-b-solid border-b-4 ${darkMode ? 'border-b-accentGreen' : 'border-b-greenDark'}`}>
                     <div className="flex items-center justify-between py-6 px-5">
                         <a className={`text-${darkMode ? 'greenLight' : 'greenDark'} text-2xl font-spaceMono underline hover:decoration-accentGreen duration-300 ease-in-out`} href="#aboutme">About Me</a>
                         <a className={`text-${darkMode ? 'greenLight' : 'greenDark'} text-2xl font-spaceMono underline hover:decoration-accentGreen duration-300 ease-in-out`} href="#projects">Projects</a>
@@ -39,7 +39,7 @@ function Home() {
                     <h2 id="aboutme" className={`text-${darkMode ? 'greenLight' : 'greenDark'} text-5xl font-bold font-spaceMono underline decoration-accentGreen pl-14 pt-14`}>ABOUT ME</h2>
                     <About2
                         darkMode={darkMode}
-                        imageUrl="/Me.png"
+                        imageUrl="/Portfolio/Me.png"
                         title="Meet me"
                         pOne="
                         My name is Lucas. I enjoy creating, tinkering and bringing designs to life in programming.
@@ -60,21 +60,21 @@ function Home() {
                     />
                     <About
                         darkMode={darkMode}
-                        imageUrl="/CMGT.png"
+                        imageUrl="/Portfolio/CMGT.png"
                         title="Education"
                         pOne="Currently I am a second year student at Creative Media and Game Technologies at Hogeschool Rotterdam. I have made projects in PHP, Laravel, Javascript and React (Native). Here I also learned to use Tailwind CSS next raw CSS and HTML."
                         pTwo="Before this study I finished gymnasium with NT and NG packages."
                     />
                     <About2
                         darkMode={darkMode}
-                        imageUrl="/art.png"
+                        imageUrl="/Portfolio/art.png"
                         title="Art"
                         pOne="Next to programming I like to draw as a hobby. I recently started posting the art I make on Instagram. On the right is one of the pieces I made for that account."
                         pTwo="I mostly make sketches on paper and sometimes commit to making digital art pieces. I tend to combine my art with my writing skills, creating characters and their world."
                     />
                     <About
                         darkMode={darkMode}
-                        imageUrl="/books.png"
+                        imageUrl="/Portfolio/books.png"
                         title="Writing"
                         pOne="Like mentioned before I really enjoy writing. From a young age I was enraptured by books and their stories. I write mostly fantasy, sci-fi and personal poetry. I aspire to release a fantasy novel one day."
                         pTwo="I also enjoy writing backstories for characters, immersing in their life story and world. I use this mostly for the characters I created and DnD characters."
@@ -85,7 +85,7 @@ function Home() {
                            pTwo="In this project I was in charge of most of the styleguide and big design choices. I also eventually pitched the outcome to IO Digital when the project was finished."
                            languages="Laravel - Tailwind - SQLite"
                            githubUrl="https://github.com/GhostyHobbit/TLE-Agency"
-                           imageUrl="/OpenHiring.png"
+                           imageUrl="/Portfolio/OpenHiring.png"
                            darkMode={darkMode}
                     />
                     <Desktop
@@ -97,7 +97,7 @@ function Home() {
                         githubUrl2="https://github.com/QuintenVanDerBlom/SignWitch"
                         link1="Project Link Back-end"
                         link2="Project Link Front-end"
-                        imageUrl="/Gebarentaal.png"
+                        imageUrl="/Portfolio/Gebarentaal.png"
                         darkMode={darkMode}
                     />
                     <Phone title="Echo"
@@ -105,7 +105,7 @@ function Home() {
                            pTwo="In this project I mostly worked on tweaking the design, the profile page and the friends overview. This was both about the front-end and the back-end functionalities."
                            languages="PHP - SQL - JavaScript - CSS"
                            githubUrl="https://stud.hosted.hr.nl/1074458/tle1/public/"
-                           imageUrl="/Echo.png"
+                           imageUrl="/Portfolio/Echo.png"
                            darkMode={darkMode}
                     />
                     <Desktop
@@ -117,7 +117,7 @@ function Home() {
                         githubUrl2="https://github.com/GhostyHobbit/PortalStudio"
                         link1="Itch.io Link"
                         link2="Project Link"
-                        imageUrl="/PortalStudio.png"
+                        imageUrl="/Portfolio/PortalStudio.png"
                         darkMode={darkMode}
                     />
                     <Phone title="Restorama"
@@ -125,7 +125,7 @@ function Home() {
                            pTwo="I was in charge of the concept and the design. Here I focussed on calm but contrasting colours and big, readable fonts."
                            languages="JavaScript - PHP - SQL - CSS"
                            githubUrl="https://github.com/mottofurui/cle3-blog"
-                           imageUrl="/Restorama.png"
+                           imageUrl="/Portfolio/Restorama.png"
                            darkMode={darkMode}
                     />
                     <Desktop
@@ -135,7 +135,7 @@ function Home() {
                         languages="PHP - SQL - CSS - HTML"
                         githubUrl1="https://github.com/GhostyHobbit/CLE-reservering"
                         link1="Project Link"
-                        imageUrl="/Wolhoop.png"
+                        imageUrl="/Portfolio/Wolhoop.png"
                         darkMode={darkMode}
                     />
                     <h2 id="contact" className={`text-${darkMode ? 'greenLight' : 'greenDark'} text-5xl font-bold font-spaceMono underline decoration-accentGreen pl-14 pt-14`}>CONTACT</h2>

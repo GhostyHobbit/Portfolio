@@ -138,6 +138,16 @@ function Home() {
                         imageUrl="/Portfolio/Wolhoop.png"
                         darkMode={darkMode}
                     />
+                    <Desktop
+                        title="Astronomy Chat Bot"
+                        pOne="For an assignment we were tasked to make a chat bot using AI. We had to make the LLM be able to speak in a certain way to the person using the bot."
+                        pTwo="This bot is able to answer questions with astronomy metaphors, it can answer detailed (but outdated) facts about the JWST and if you feed it a date, it'll return the Astronmy Picture of the Day (APOD) which you can see in the screenshot."
+                        languages="React - Azure OpenAI"
+                        githubUrl1="https://github.com/GhostyHobbit/AstronomyChatBot"
+                        link1="Project Link"
+                        imageUrl="/Portfolio/ChatLLM.png"
+                        darkMode={darkMode}
+                    />
                     <h2 id="contact" className={`text-${darkMode ? 'greenLight' : 'greenDark'} text-5xl font-bold font-spaceMono underline decoration-accentGreen pl-14 pt-14`}>CONTACT</h2>
                     <div className={`text-${darkMode ? 'greenLight' : 'greenDark'} pl-14 py-6 border-b-accentGreen border-b-4`}>
                         <div className="flex items-center">
